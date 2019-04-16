@@ -1,0 +1,6 @@
+module StockPriceApp {
+    interface StockPrice {
+        double getPrice();
+        oneway void shutdown();
+    };
+};
