@@ -55,7 +55,7 @@ public class Ring {
 			proc[i].f = 0;
 		}
 		
-		// Sorting by id
+		// Sorting by index
 		int i, j;
 		int temp;
 		for (i = 0; i < noofproc - 1; i++) {
