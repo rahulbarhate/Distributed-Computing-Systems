@@ -49,7 +49,7 @@ public class Ring {
 		for (int i = 0;i < noofproc;i++) {
 			
 			proc[i].id = i;
-			System.out.println("Enter the id of the process");
+			System.out.println("Enter the index of the process: ");
 			proc[i].index = sc.nextInt();
 			proc[i].active = true;
 			proc[i].f = 0;
